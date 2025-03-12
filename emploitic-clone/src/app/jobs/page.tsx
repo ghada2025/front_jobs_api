@@ -18,6 +18,7 @@ export type Job = {
 	location: string
 	type: "full-time" | "part-time"
 	benefits: string[]
+	createAt: string
 }
 
 export default async function Page({
